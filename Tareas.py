@@ -9,5 +9,5 @@ def listar_tareas():
 def eliminar_tarea(indice):
     return tareas.pop(indice)
 
-def tareas_prioriyarias(prefijo="!"):
+def tareas_prioritarias(prefijo="!"):
     return[t for t in tareas if t.startswith(prefijo)]
