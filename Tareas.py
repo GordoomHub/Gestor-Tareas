@@ -1,3 +1,7 @@
-if not titulo.strip():
-    raise ValueError("EL titulo no puede estar vacio")
-tareas.append(titulo.strip())
+tareas = []
+
+def agregar_tarea(titulo):
+    tareas.append(titulo)
+
+def listar_tareas():
+    return tareas
